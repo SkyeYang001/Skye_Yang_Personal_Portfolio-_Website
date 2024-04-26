@@ -1,6 +1,67 @@
-
 * {
-    font-family:"Kanit", sans-serif;
+    font-family: "Kanit", sans-serif;
     margin: 0%;
     padding: 0%;
+}
+
+
+
+#title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/Background/BackgroundMainTop.jpeg);
+    border: solid 5px #000000;
+}
+
+#NAV {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin-top: 110px;
+}
+
+.hammer {
+    width: auto;
+    height: 2.6in;
+}
+
+#description {
+    background-color: #d28518a7;
+    color: #EBDE15;
+    height: 200px;
+}
+
+.loc {
+    display: none;
+}
+
+main {
+    background-image: url(assets/Background/BackgroundMainBottom.jpg);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indie {
+    width: 80%;
+    height: 8.33in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F0F8FF;
+    background-color: #363131b9;
+    border: solid 5px #000000;
+}
+.indie p{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.pro {
+    display:none;
 }
