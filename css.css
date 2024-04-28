@@ -4,7 +4,29 @@
     padding: 0%;
 }
 
+a:link {
+    color: #F0F8FF;
+    background-color: transparent;
+    text-decoration: none;
+}
 
+a:visited {
+    color: #D11717;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EBDE15;
+    background-color: #D28318;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #EBDE15;
+    background-color: #D28318;
+    text-decoration: underline;
+}
 
 #title {
     width: 100%;
@@ -20,11 +42,44 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.705);
     margin-top: 110px;
+    height: auto;
 }
 
 .hammer {
     width: auto;
     height: 2.6in;
+}
+
+#lanceF1:hover {
+    content: url(assets/Textlar/OrangeF1S.png)
+}
+
+#lanceF2:hover {
+    content: url(assets/Textlar/OrangeF2k.png);
+}
+
+#lanceF3:hover {
+    content: url(assets/Textlar/OrangeF3Y.png);
+}
+
+#lanceF4:hover {
+    content: url(assets/Textlar/OrangeF4E.png);
+}
+
+#lanceL1:hover {
+    content: url(assets/Textlar/OrangeL1Y.png)
+}
+
+#lanceL2:hover {
+    content: url(assets/Textlar/OrangeL2A.png)
+}
+
+#lanceL3:hover {
+    content: url(assets/Textlar/OrangeL3N.png)
+}
+
+#lanceL4:hover {
+    content: url(assets/Textlar/OrangeL4G.png)
 }
 
 #description {
@@ -57,11 +112,16 @@ main {
     background-color: #363131b9;
     border: solid 5px #000000;
 }
-.indie p{
+
+.indie p {
     margin-left: 90px;
     margin-right: 90px;
 }
 
-.pro {
-    display:none;
+.project h3 {
+    margin-left: 90px;
+}
+
+.snub {
+    display: none;
 }
