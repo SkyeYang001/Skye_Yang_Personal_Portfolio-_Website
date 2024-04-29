@@ -4,6 +4,11 @@
     padding: 0%;
 }
 
+footer {
+    background-color: #000000;
+    color: white;
+}
+
 a:link {
     color: #F0F8FF;
     background-color: transparent;
@@ -36,11 +41,17 @@ a:active {
     border: solid 5px #000000;
 }
 
+.title_background {
+    background-color: rgba(0, 0, 0, 0.705);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #NAV {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.705);
     margin-top: 110px;
     height: auto;
 }
@@ -82,6 +93,12 @@ a:active {
     content: url(assets/Textlar/OrangeL4G.png)
 }
 
+#portfolio {
+    background-color: rgba(0, 0, 0, 0.705);
+    height: auto;
+    width: 995px;
+}
+
 #description {
     background-color: #d28518a7;
     color: #EBDE15;
@@ -109,13 +126,68 @@ main {
     flex-direction: column;
     align-items: center;
     color: #F0F8FF;
-    background-color: #363131b9;
     border: solid 5px #000000;
 }
 
 .indie p {
     margin-left: 90px;
     margin-right: 90px;
+}
+
+#int {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url("assets/Background/BackgroundTextMix0.png");
+    background-size: cover;
+}
+
+#hob {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url(assets/Background/BackgroundTextRed0.png);
+    background-size: cover;
+}
+
+#ach {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url(assets/Background/BackgroundTextOrange2.png);
+    background-size: cover;
+}
+
+#sec {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url(assets/Background/BackgroundTextYellow0.png);
+    background-size: cover;
+}
+
+#por {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url(assets/Background/BackgroundTextMix1.png);
+    background-size: cover;
+}
+
+#res {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url(assets/Background/BackgroundTextRed1.png);
+    background-size: cover;
+}
+
+#con {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url(assets/Background/BackgroundTextOrange1.png);
+    background-size: cover;
+}
+
+#sce {
+    background-image:
+        linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+        url(assets/Background/BackgroundTextYellow1.png);
+    background-size: cover;
 }
 
 .project h3 {
