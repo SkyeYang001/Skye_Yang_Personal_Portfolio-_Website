@@ -190,10 +190,26 @@ main {
     background-size: cover;
 }
 
-.project h3 {
+.pro h3 {
     margin-left: 90px;
 }
 
 .snub {
     display: none;
+}
+
+.selected1 .sites {
+ display: block;
+}
+
+.selected2 .slides {
+    display: block;
+}
+
+.selected3 .essays {
+    display: block;
+}
+
+.selected4 .videos {
+    display: block;
 }
