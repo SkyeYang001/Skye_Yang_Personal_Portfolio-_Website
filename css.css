@@ -134,7 +134,9 @@ a:active {
     display: none;
 }
 
-.descriptionFS #glowieintr {}
+.descriptionFS #glowieintr {
+    display: block;
+}
 
 .descriptionFK .default {
     display: none;
