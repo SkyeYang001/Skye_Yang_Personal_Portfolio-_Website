@@ -9,6 +9,11 @@
     color: #EBDE15;
 }
 
+body {
+    /* background-image: url(assets/Background/BackgroundMainTop.jpeg);
+    background-size: cover; */
+}
+
 footer {
     background-color: #000000;
     color: #F0F8FF;
@@ -41,9 +46,11 @@ a:active {
 
 #title {
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-image: url(assets/Background/BackgroundMainTop.jpeg);
+    background-size: cover;
     border: solid 5px #000000;
 }
 
@@ -60,11 +67,17 @@ a:active {
     justify-content: center;
     margin-top: 110px;
     height: auto;
+    padding: 25px;
+}
+
+.gear button {
+    width: 100%;
+    height: 100%;
 }
 
 .hammer {
     width: auto;
-    height: 2.6in;
+    height: 3.6in;
 }
 
 #lanceF1:hover {
@@ -101,41 +114,110 @@ a:active {
 
 #portfolio {
     background-color: rgba(0, 0, 0, 0.705);
-    height: auto;
-    width: 995px;
+    height: 200px;
+    width: auto;
+    padding: 25px;
 }
 
 #description {
     background-color: #d28518a7;
     color: #EBDE15;
     height: 200px;
+    border: solid 5px #000000;
 }
 
 .loc {
     display: none;
 }
 
+.descriptionFS .default {
+    display: none;
+}
+
+.descriptionFS #glowieintr {}
+
+.descriptionFK .default {
+    display: none;
+}
+
+.descriptionFK #glowiehobb {
+    display: block;
+}
+
+.descriptionFY .default {
+    display: none;
+}
+
+.descriptionFY #glowieawar {
+    display: block;
+}
+
+.descriptionFE .default {
+    display: none;
+}
+
+.descriptionFE #glowieseco {
+    display: block;
+}
+
+.descriptionLY .default {
+    display: none;
+}
+
+.descriptionLY #glowieport {
+    display: block;
+}
+
+.descriptionLA .default {
+    display: none;
+}
+
+.descriptionLA #glowieresu {
+    display: block;
+}
+
+.descriptionLN .default {
+    display: none;
+}
+
+.descriptionLN #glowiecont {
+    display: block;
+}
+
+.descriptionLG .default {
+    display: none;
+}
+
+.descriptionLG #glowiebehi {
+    display: block;
+}
+
 main {
-    background-image: url(assets/Background/BackgroundMainBottom.jpg);
+    /* background-image: url(assets/Background/BackgroundMainBottom.jpg);
+    background-size: cover; */
 }
 
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(assets/Background/BackgroundMainBottom.jpg);
+    background-size: cover;
+    display: none;
 }
 
 
 
 .indie {
     width: 80%;
-    height: 8.33in;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #F0F8FF;
     border: solid 5px #000000;
-    display: none;
+    /* background-image: url(assets/Background/BackgroundMainBottom.jpg);
+    background-size: cover; */
 }
 
 .indie p {
@@ -203,7 +285,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    display: none;
 }
 
 #por h2 {
@@ -215,29 +296,29 @@ main {
 }
 
 #option {
-    background-color:transparent;
+    background-color: transparent;
     color: #F0F8FF;
     border: solid 3px #000000;
 }
 
-#option:hover  {
-    background-color:#D28318;
+#option:hover {
+    background-color: #D28318;
     color: #EBDE15;
 
 }
 
 #option:active {
-    background-color:#D28318;
+    background-color: #D28318;
     color: #EBDE15;
 }
 
 .proselect {
-    background-color:#D28318;
+    background-color: #D28318;
     color: #EBDE15;
 }
 
 .proselect:active {
-    background-color:#D28318;
+    background-color: #D28318;
     color: #EBDE15;
 }
 
