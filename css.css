@@ -4,9 +4,15 @@
     padding: 0%;
 }
 
+::selection {
+    background-color: #D28318;
+    color: #EBDE15;
+}
+
 footer {
     background-color: #000000;
-    color: white;
+    color: #F0F8FF;
+    display: none;
 }
 
 a:link {
@@ -119,6 +125,8 @@ main {
     align-items: center;
 }
 
+
+
 .indie {
     width: 80%;
     height: 8.33in;
@@ -127,6 +135,7 @@ main {
     align-items: center;
     color: #F0F8FF;
     border: solid 5px #000000;
+    display: none;
 }
 
 .indie p {
@@ -190,8 +199,56 @@ main {
     background-size: cover;
 }
 
+#por {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+}
+
+#por h2 {
+    margin-left: 90px;
+}
+
+#proselector {
+    margin-left: 90px;
+}
+
+#option {
+    background-color:transparent;
+    color: #F0F8FF;
+    border: solid 3px #000000;
+}
+
+#option:hover  {
+    background-color:#D28318;
+    color: #EBDE15;
+
+}
+
+#option:active {
+    background-color:#D28318;
+    color: #EBDE15;
+}
+
+.proselect {
+    background-color:#D28318;
+    color: #EBDE15;
+}
+
+.proselect:active {
+    background-color:#D28318;
+    color: #EBDE15;
+}
+
 .pro h3 {
     margin-left: 90px;
+}
+
+.pro h3:hover {
+    color: #EBDE15;
+    background-color: #D28318;
+    text-decoration: underline;
 }
 
 .snub {
@@ -199,7 +256,7 @@ main {
 }
 
 .selected1 .sites {
- display: block;
+    display: block;
 }
 
 .selected2 .slides {

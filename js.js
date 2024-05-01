@@ -6,23 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
         buttons.forEach(button => button.addEventListener('click', processForm))
     }
 
+    // title (Large Text)
+
+
+    // title (description)
+
+    // project selector (My Portfolio of Projects)
     document.getElementById('option').addEventListener('change', function (eventData) {
         
         changeCert(eventData.target.value);
     });
-
-    // document.getElementById("myForm").addEventListener("submit", function (eventData) {
-    //     eventData.preventDefault();
-    //     console.log(eventData.target);
-    //     var formData = new FormData(eventData.target);
-    //     formData = Object.fromEntries(formData);
-
-    //     let nameOutput = document.getElementById('nameOutput');
-    //     let info = document.getElementById('info');
-    //     nameOutput.innerText = formData.name;
-    //     info.innerText = formData.type;
-
-    //   });
     
     function changeCert(value){
         let project = document.getElementById('projects');
