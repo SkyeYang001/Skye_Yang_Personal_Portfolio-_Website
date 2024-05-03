@@ -1,24 +1,50 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    // project selector (My Portfolio of Projects)
 
     if (document.querySelectorAll('.button') !== null) {
         let buttons = document.querySelectorAll('.button');
         buttons.forEach(button => button.addEventListener('click', processForm))
     }
 
-    // Button (title text)
 
-    document.getElementsByClassName('but').addEventListener('click', function (eventData) {
+    document.getElementById('option').addEventListener('change', function (eventSelect) {
 
-        switchContent(eventData.target.value);
-        switchTitletext(eventData.target.value);
+        changePro(eventSelect.target.value);
     });
+
+    function changePro(value) {
+        let project = document.getElementById('projects');
+        project.classList = "";
+        switch (value) {
+            case 'site':
+                project.classList.add('selected1');
+                break;
+            case 'slide':
+                project.classList.add('selected2');
+                break;
+            case 'essay':
+                project.classList.add('selected3');
+                break;
+            case 'video':
+                project.classList.add('selected4');
+                break;
+        }
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
 
     // title (description)
 
-    document.getElementsByClassName('but').addEventListener('mouseover', function (eventData) {
+    if (document.querySelectorAll('.button') !== null) {
+        let buttons = document.querySelectorAll('.button');
+        buttons.forEach(button => button.addEventListener('click', processForm))
+    }
 
-        switchDescription(eventData.target.value);
+    document.getElementById('NAV').addEventListener('mouseover', function (eventDescription) {
+
+        switchDescription(eventDescription.target.value);
     });
 
     function switchDescription(value) {
@@ -52,30 +78,96 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+});
 
+document.addEventListener("DOMContentLoaded", function () {
+    // Button (content)
 
-    // project selector (My Portfolio of Projects)
-    document.getElementById('option').addEventListener('change', function (eventData) {
+    if (document.querySelectorAll('.button') !== null) {
+        let buttons = document.querySelectorAll('.button');
+        buttons.forEach(button => button.addEventListener('click', processForm))
+    }
 
-        changePro(eventData.target.value);
+    document.getElementById('NAV').addEventListener('click', function (eventContent) {
+
+        switchContent(eventContent.target.value);
     });
 
-    function changePro(value) {
-        let project = document.getElementById('projects');
-        project.classList = "";
+    function switchContent(value) {
+        let content = document.getElementById('content');
+        content.classList = "";
         switch (value) {
-            case 'site':
-                project.classList.add('selected1');
+            case 'boltFS':
+                content.classList.add('contentFS');
                 break;
-            case 'slide':
-                project.classList.add('selected2');
+            case 'boltFK':
+                content.classList.add('contentFK');
                 break;
-            case 'essay':
-                project.classList.add('selected3');
+            case 'boltFY':
+                content.classList.add('contentFY');
                 break;
-            case 'video':
-                project.classList.add('selected4');
+            case 'boltFE':
+                content.classList.add('contentFE');
+                break;
+            case 'boltLY':
+                content.classList.add('contentLY');
+                break;
+            case 'boltLA':
+                content.classList.add('contentLA');
+                break;
+            case 'boltLN':
+                content.classList.add('contentLN');
+                break;
+            case 'boltLG':
+                content.classList.add('contentLG');
                 break;
         }
     }
+
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Button (content)
+
+    if (document.querySelectorAll('.button') !== null) {
+        let buttons = document.querySelectorAll('.button');
+        buttons.forEach(button => button.addEventListener('click', processForm))
+    }
+
+    document.getElementById('NAV').addEventListener('click', function (eventTitleText) {
+
+        switchTitleText(eventTitleText.target.value);
+    });
+
+    function switchTitleText(value) {
+        let NAV = document.getElementById('NAV');
+        NAV.classList = "";
+        switch (value) {
+            case 'boltFS':
+                NAV.classList.add('TitleTextFS');
+                break;
+            case 'boltFK':
+                NAV.classList.add('TitleTextFK');
+                break;
+            case 'boltFY':
+                NAV.classList.add('TitleTextFY');
+                break;
+            case 'boltFE':
+                NAV.classList.add('TitleTextFE');
+                break;
+            case 'boltLY':
+                NAV.classList.add('TitleTextLY');
+                break;
+            case 'boltLA':
+                NAV.classList.add('TitleTextLA');
+                break;
+            case 'boltLN':
+                NAV.classList.add('TitleTextLN');
+                break;
+            case 'boltLG':
+                NAV.classList.add('TitleTextLG');
+                break;
+        }
+    }
+
 });
