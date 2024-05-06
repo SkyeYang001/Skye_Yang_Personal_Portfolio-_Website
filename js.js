@@ -88,55 +88,10 @@ document.addEventListener("DOMContentLoaded", function () {
         buttons.forEach(button => button.addEventListener('click', processForm))
     }
 
-    document.getElementById('NAV').addEventListener('click', function (eventContent) {
-
-        switchContent(eventContent.target.value);
-    });
-
-    function switchContent(value) {
-        let content = document.getElementById('content');
-        content.classList = "";
-        switch (value) {
-            case 'boltFS':
-                content.classList.add('contentFS');
-                break;
-            case 'boltFK':
-                content.classList.add('contentFK');
-                break;
-            case 'boltFY':
-                content.classList.add('contentFY');
-                break;
-            case 'boltFE':
-                content.classList.add('contentFE');
-                break;
-            case 'boltLY':
-                content.classList.add('contentLY');
-                break;
-            case 'boltLA':
-                content.classList.add('contentLA');
-                break;
-            case 'boltLN':
-                content.classList.add('contentLN');
-                break;
-            case 'boltLG':
-                content.classList.add('contentLG');
-                break;
-        }
-    }
-
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    // Button (content)
-
-    if (document.querySelectorAll('.button') !== null) {
-        let buttons = document.querySelectorAll('.button');
-        buttons.forEach(button => button.addEventListener('click', processForm))
-    }
-
     document.getElementById('NAV').addEventListener('click', function (eventTitleText) {
 
         switchTitleText(eventTitleText.target.value);
+        switchContent(eventContent.target.value);
     });
 
     function switchTitleText(value) {
@@ -166,6 +121,37 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
             case 'boltLG':
                 NAV.classList.add('TitleTextLG');
+                break;
+        }
+    }
+
+    function switchContent(value) {
+        let content = document.getElementById('content');
+        content.classList = "";
+        switch (value) {
+            case 'boltFS':
+                content.classList.add('contentFS');
+                break;
+            case 'boltFK':
+                content.classList.add('contentFK');
+                break;
+            case 'boltFY':
+                content.classList.add('contentFY');
+                break;
+            case 'boltFE':
+                content.classList.add('contentFE');
+                break;
+            case 'boltLY':
+                content.classList.add('contentLY');
+                break;
+            case 'boltLA':
+                content.classList.add('contentLA');
+                break;
+            case 'boltLN':
+                content.classList.add('contentLN');
+                break;
+            case 'boltLG':
+                content.classList.add('contentLG');
                 break;
         }
     }
