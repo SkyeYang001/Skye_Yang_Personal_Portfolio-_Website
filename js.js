@@ -42,10 +42,19 @@ document.addEventListener("DOMContentLoaded", function () {
         buttons.forEach(button => button.addEventListener('click', processForm))
     }
 
-    document.getElementById('NAV').addEventListener('mouseover', function (eventDescription) {
+    // document.getElementById('NAV').addEventListener('mouseover', function (eventDescription) {
 
-        switchDescription(eventDescription.target.value);
-    });
+    //     switchDescription(eventDescription.target.value);
+    // });
+
+    let buttons = document.querySelectorAll('#NAV > section > a');
+    for(button of buttons){
+        button.addEventListener('mouseover', (event) => {
+            let name = event.target.attributes['data-value'].value;
+            // console.log(event.target.attributes['data-value'].value);
+            switchDescription(name);
+        });
+    }
 
     function switchDescription(value) {
         let description = document.getElementById('description');
@@ -88,13 +97,35 @@ document.addEventListener("DOMContentLoaded", function () {
         buttons.forEach(button => button.addEventListener('click', processForm))
     }
 
-    document.getElementById('NAV').addEventListener('click', function (eventTitleText) {
+    // document.getElementById('NAV').addEventListener('click', function (eventTitleText) {
 
-        switchTitleText(eventTitleText.target.value);
-        switchContent(eventContent.target.value);
-    });
+    //     switchTitleText(eventTitleText.target.value);
+    //     switchContent(eventTitleText.target.value);
+    // });
+
+    let buttons = document.querySelectorAll('#NAV > section > a');
+    for(button of buttons){
+        button.addEventListener('click', (event) => {
+            let name = event.target.attributes['data-value'].value;
+            // console.log(event.target.attributes['data-value'].value);
+            switchTitleText(name);
+            switchContent(name);
+        });
+    }
+
+    //hide content on demand
+    function hideContent(){
+        let contents = document.querySelectorAll('#content > .indie');
+        for(content of contents) {
+            content.classList.add('hidden');
+        }
+    }
+
+    hideContent() // hide content on page load
+    
 
     function switchTitleText(value) {
+        console.log('TitleText ' + value);
         let NAV = document.getElementById('NAV');
         NAV.classList = "";
         switch (value) {
@@ -126,6 +157,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function switchContent(value) {
+        console.log('Content ' + value);
+        hideContent(); // hide contents before revealing selected section
         let content = document.getElementById('content');
         content.classList = "";
         switch (value) {

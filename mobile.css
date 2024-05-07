@@ -1,4 +1,24 @@
+@media only screen and (max-width:480px) {
 
-* {
-    
+    * {}
+
+    footer {
+        display: none;
+    }
+
+    body::after {
+        color: #F0F8FF;
+        font-size: 26px;
+        margin:45px;
+        content: "Mobile verison in the future?";
+    }
+
+    #title {
+        display: none;
+    }
+
+    #content {
+        display: none;
+    }
+
 }

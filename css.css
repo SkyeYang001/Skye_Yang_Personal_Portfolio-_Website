@@ -10,6 +10,7 @@
 }
 
 body {
+    background-color: #203375;
     /* background-image: url(assets/Background/BackgroundMainTop.jpeg);
     background-size: cover; */
 }
@@ -17,7 +18,12 @@ body {
 footer {
     background-color: #000000;
     color: #F0F8FF;
-    display: none;
+    font-size: 16px;
+    /* display: none; */
+}
+
+footer h3 {
+    margin-left: 15px;
 }
 
 a:link {
@@ -65,7 +71,7 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 150px;
     height: auto;
     padding: 25px;
 }
@@ -146,7 +152,7 @@ a:active {
 }
 
 #portfolio {
-    background-color: rgba(0, 0, 0, 0.705);
+    /* background-color: rgba(0, 0, 0, 0.705); */
     height: 200px;
     width: auto;
     padding: 25px;
@@ -157,6 +163,11 @@ a:active {
     color: #EBDE15;
     height: 200px;
     border: solid 5px #000000;
+    font-size: 5em;
+}
+
+#description h1 {
+    margin-left: 35px;
 }
 
 .loc {
@@ -238,6 +249,10 @@ main {
     align-items: center;
     background-image: url(assets/Background/BackgroundMainBottom.jpg);
     background-size: cover;
+    /* display: none; */
+}
+
+#content .hidden {
     display: none;
 }
 
@@ -277,8 +292,8 @@ main {
     width: 80%;
     height: 100vh;
     display: flex;
+    /* justify-content: center; */
     flex-direction: column;
-    align-items: center;
     color: #F0F8FF;
     border: solid 5px #000000;
     /* background-image: url(assets/Background/BackgroundMainBottom.jpg);
@@ -286,6 +301,20 @@ main {
 }
 
 .indie p {
+    font-size: 18px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 15px;
+}
+
+.indie h2 {
+    font-size: 3em;
+    margin-top: 35px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.indie h3 {
     margin-left: 90px;
     margin-right: 90px;
 }
@@ -364,6 +393,8 @@ main {
     background-color: transparent;
     color: #F0F8FF;
     border: solid 3px #000000;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #option:hover {
@@ -387,8 +418,13 @@ main {
     color: #EBDE15;
 }
 
+#projects{
+    margin-top: 15px;
+}
+
 .pro h3 {
     margin-left: 90px;
+    font-size: 20px;
 }
 
 .pro h3:hover {
