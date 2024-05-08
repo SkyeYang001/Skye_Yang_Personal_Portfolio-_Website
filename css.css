@@ -26,25 +26,47 @@ footer h3 {
     margin-left: 15px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 a:link {
     color: #F0F8FF;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
+a h2:visited {
     color: #D11717;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+a h2:hover {
     color: #EBDE15;
     background-color: #D28318;
     text-decoration: underline;
 }
 
-a:active {
+a h2:active {
+    color: #EBDE15;
+    background-color: #D28318;
+    text-decoration: underline;
+}
+
+a h3:visited {
+    color: #D11717;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a h3:hover {
+    color: #EBDE15;
+    background-color: #D28318;
+    text-decoration: underline;
+}
+
+a h3:active {
     color: #EBDE15;
     background-color: #D28318;
     text-decoration: underline;
@@ -424,7 +446,6 @@ main {
 
 .pro h3 {
     margin-left: 90px;
-    font-size: 20px;
 }
 
 .pro h3:hover {
