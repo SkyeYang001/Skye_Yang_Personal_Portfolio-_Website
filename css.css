@@ -36,6 +36,24 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: #D11717;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EBDE15;
+    background-color: #D28318;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #EBDE15;
+    background-color: #D28318;
+    text-decoration: underline;
+}
+
 a h2:visited {
     color: #D11717;
     background-color: transparent;
