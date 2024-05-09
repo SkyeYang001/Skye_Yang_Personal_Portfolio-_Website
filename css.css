@@ -15,6 +15,10 @@ body {
     background-size: cover; */
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 footer {
     background-color: #000000;
     color: #F0F8FF;
