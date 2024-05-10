@@ -1,0 +1,29 @@
+@media only screen and (max-width:480px) {
+
+    * {}
+
+    footer {
+        display: none;
+    }
+
+    body {
+        background-color: #203375;
+        /* background-image: url(assets/Background/BackgroundMainTop.jpeg);
+        background-size: cover; */
+    }
+
+    body::after {
+        color: #F0F8FF;
+        font-size: 26px;
+        margin: 45px;
+        content: "Mobile verison in the future?";
+    }
+
+    #profile {
+        display: none;
+    }
+
+    #twin {
+        display: none;
+    }
+}

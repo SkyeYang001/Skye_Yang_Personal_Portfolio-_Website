@@ -1,0 +1,161 @@
+* {
+    font-family: "OpenSans", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: #F0F8FF;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    background-color: #D28318;
+    color: #EBDE15;
+}
+
+body {
+    background-image:
+    /* linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)), */
+    url(../Background/BackgroundMainTop.jpeg);
+    background-size: cover;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+img {
+    margin-left: 3%;
+}
+
+footer {
+    background-color:black;
+    color: #F0F8FF;
+    font-size: 16px;
+    margin-top: 2%;
+    /* display: none; */
+}
+
+footer h3 {
+    margin-left: 15px;
+}
+
+#resume {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#profile {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 5px #EBDE15;
+    border-radius: 35px;
+    background-color: rgba(54, 49, 49, 0.73);
+}
+
+#profile h1 {
+    font-size: 5em;
+}
+
+#profile h2 {
+    font-size: 4em;
+}
+
+#profile h3 {
+    font-size: 2em;
+}
+
+#contact {
+    margin-right:1% ;
+}
+
+#twin {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#twin h2 {
+    font-size: 3em;
+}
+
+#twin h3 {
+    font-size: 2em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 30%;
+    border: solid 5px #EBDE15;
+    border-radius: 25px 25px 0px 0px;
+    background-color: rgba(54, 49, 49, 0.73);
+}
+
+#main p {
+    font-size: 22px;
+    padding: 10px;
+}
+
+#about {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#other {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 3%;
+}
+
+#list p {
+    padding: 10px;
+}
+
+#list h3 {
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+#education {
+    height: 30%;
+    border: solid 5px #EBDE15;
+    border-radius: 0px 25px 25px 0px;
+    background-color: rgba(54, 49, 49, 0.73);
+}
+
+#education p {
+    font-size:18px;
+}
+
+#skills {
+    height: 70%;
+    border: solid 5px #EBDE15;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: 5%;
+    background-color: rgba(54, 49, 49, 0.73);
+}

@@ -20,7 +20,7 @@ body {
 }
 
 footer {
-    background-color: #000000;
+    background-color:black;
     color: #F0F8FF;
     font-size: 16px;
     /* display: none; */
@@ -101,7 +101,7 @@ a h3:active {
     flex-direction: column;
     background-image: url(assets/Background/BackgroundMainTop.jpeg);
     background-size: cover;
-    border: solid 5px #000000;
+    /* border: solid 5px #EBDE15; */
 }
 
 .title_background {
@@ -206,7 +206,7 @@ a h3:active {
     background-color: #d28518a7;
     color: #EBDE15;
     height: 200px;
-    border: solid 5px #000000;
+    border: solid 5px #EBDE15;
     font-size: 5em;
 }
 
@@ -339,7 +339,7 @@ main {
     /* justify-content: center; */
     flex-direction: column;
     color: #F0F8FF;
-    border: solid 5px #000000;
+    border: solid 5px #EBDE15;
     /* background-image: url(assets/Background/BackgroundMainBottom.jpg);
     background-size: cover; */
 }
@@ -436,7 +436,7 @@ main {
 #option {
     background-color: transparent;
     color: #F0F8FF;
-    border: solid 3px #000000;
+    border: solid 3px #EBDE15;
     font-size: 18px;
     font-weight: bold;
 }
