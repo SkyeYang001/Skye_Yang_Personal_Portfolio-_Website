@@ -211,7 +211,7 @@ a h3:active {
 }
 
 #description h1 {
-    margin-left: 35px;
+    padding: 15px;
 }
 
 .loc {
