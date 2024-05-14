@@ -1,6 +1,6 @@
 @media only screen and (max-width:480px) {
 
-    * {}
+    /* * {}
 
     footer {
         display: none;
@@ -19,6 +19,83 @@
 
     #content {
         display: none;
+    } */
+
+    h3 {
+        font-size: 15px;
     }
 
+    #title {
+        height: 40vh;
+    }
+
+    #NAV {
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .hammer {
+        width: auto;
+        height: 1in;
+    }
+
+    #portfolio {
+        /* background-color: rgba(0, 0, 0, 0.705); */
+        height: 50px;
+        width: auto;
+        padding: 15px;
+    }
+
+    #description {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        font-size: 15px;
+        border: solid 3px #EBDE15;
+    }
+
+    #description h1 {
+        padding: 10px;
+    }
+
+    .indie {
+        height: 15.5in;
+        border: solid 3px #EBDE15;
+    }
+
+    .indie p {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 10px;
+    }
+
+    .indie h2 {
+        font-size: 25px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .indie h3 {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #por h2 {
+        margin-left: 10px;
+    }
+
+    #option {
+        font-size: 15px;
+    }
+
+    #projects {
+        margin-top: 10px;
+    }
+
+    .pro h3 {
+        margin-left: 10px;
+    }
 }
