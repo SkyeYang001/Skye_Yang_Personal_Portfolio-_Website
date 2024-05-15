@@ -2,14 +2,14 @@
 
     * {}
 
-    footer {
+    /* footer {
         display: none;
     }
 
     body {
         background-color: #203375;
-        /* background-image: url(assets/Background/BackgroundMainTop.jpeg);
-        background-size: cover; */
+        background-image: url(assets/Background/BackgroundMainTop.jpeg);
+        background-size: cover;
     }
 
     body::after {
@@ -25,5 +25,106 @@
 
     #twin {
         display: none;
+    } */
+
+    li {
+        font-size: 14px;
+        margin-left: 15px;
+        padding: 5px;
+    }
+
+    #resume {
+        width: 80%;
+        margin-top: 3%;
+        margin-left: 10%;
+        border: solid 3px #EBDE15;
+        background-color: rgba(54, 49, 49, 0.73);
+    }
+
+    #profile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: solid 0px #EBDE15;
+        background-color: transparent;
+    }
+
+    #profile h1 {
+        font-size: 2em;
+    }
+
+    #profile h2 {
+        font-size: 2em;
+    }
+
+    #profile h3 {
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    #twin h2 {
+        font-size: 1em;
+    }
+
+    #twin h3 {
+        font-size: 2em;
+        padding: 5px;
+    }
+
+    #main {
+        width: 100%;
+        border: solid 0px #EBDE15;
+        border-radius: 25px 25px 0px 0px;
+        background-color: transparent;
+        width: 90%;
+    }
+
+    #main h2 {
+
+    }
+
+    #main p {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    #twin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    #twin h2 {
+        font-size: 25px;
+    }
+    
+    #twin h3 {
+        font-size: 18px;
+    }
+
+    #list {
+        width: 100%;
+    }
+    
+    #list p {
+        padding: 5px;
+    }
+
+    #education {
+        width: 80%;
+        border: solid 0px #EBDE15;
+        border-radius: 0px 25px 25px 0px;
+        background-color: transparent;
+    }
+
+    #education p {
+        font-size: 16px;
+    }
+
+    #skills {
+        border: solid 0px #EBDE15;
+        border-radius: 0px 25px 25px 0px;
+        background-color: transparent;
     }
 }

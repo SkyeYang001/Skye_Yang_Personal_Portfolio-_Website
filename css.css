@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: black;
+    background-color:black;
     /* background-image: url(assets/Background/BackgroundMainTop.jpeg);
     background-size: cover; */
 }
@@ -117,6 +117,10 @@ a h3:active {
     color: #EBDE15;
     background-color: #D28318;
     text-decoration: underline;
+}
+
+.mobile {
+    display: none;
 }
 
 #title {

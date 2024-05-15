@@ -21,29 +21,57 @@
         display: none;
     } */
 
+
+    body {
+        background-image:
+            linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
+            url("assets/Background/BackgroundMainTop.jpeg");
+        background-size: ;
+    }
+
+    footer {}
+
     h3 {
         font-size: 15px;
     }
 
     #title {
         height: 40vh;
+        display: none;
     }
 
     #NAV {
-        margin-top: 30px;
+        margin-top: 35px;
         padding: 15px;
+        position: sticky;
+        top: 0px;
+        background-color: #D11717;
+        border: solid 3px #EBDE15;
+        animation-duration: 5s;
+        animation-name: fade;
+    }
+
+    #glowiehoov {
+
+    }
+
+    .mobile {
+        display: block;
     }
 
     .hammer {
         width: auto;
-        height: 1in;
+        height: 0.8in;
     }
 
     #portfolio {
         /* background-color: rgba(0, 0, 0, 0.705); */
-        height: 50px;
+        height: 40px;
         width: auto;
         padding: 15px;
+        margin-left: 65px;
+        animation-duration: 5s;
+        animation-name: fade;
     }
 
     #description {
@@ -52,6 +80,8 @@
         height: 60px;
         font-size: 15px;
         border: solid 3px #EBDE15;
+        animation-duration: 5s;
+        animation-name: fade;
     }
 
     #description h1 {
@@ -59,8 +89,9 @@
     }
 
     .indie {
-        height: 15.5in;
+        height: 14in;
         border: solid 3px #EBDE15;
+        animation-duration: 0s;
     }
 
     .indie p {
@@ -98,4 +129,15 @@
     .pro h3 {
         margin-left: 10px;
     }
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+      
 }
