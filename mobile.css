@@ -26,17 +26,13 @@
         background-image:
             linear-gradient(rgba(54, 49, 49, 0.73), rgba(54, 49, 49, 0.73)),
             url("assets/Background/BackgroundMainTop.jpeg");
-        background-size: ;
     }
-
-    footer {}
 
     h3 {
         font-size: 15px;
     }
 
     #title {
-        height: 40vh;
         display: none;
     }
 
@@ -56,7 +52,7 @@
     }
 
     .mobile {
-        
+        display: block;
     }
 
     .hammer {
