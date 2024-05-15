@@ -119,6 +119,10 @@ a h3:active {
     text-decoration: underline;
 }
 
+.Mobile {
+    display:none;
+}
+
 #title {
     width: 100%;
     height: 100vh;
