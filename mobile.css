@@ -36,19 +36,18 @@
         display: none;
     }
 
+    #scroll {
+        position: sticky;
+        top: 0px;
+    }
+
     #NAV {
         margin-top: 35px;
         padding: 15px;
-        position: sticky;
-        top: 0px;
-        background-color: #D11717;
+        background-color: #203375;
         border: solid 3px #EBDE15;
         animation-duration: 5s;
         animation-name: fade;
-    }
-
-    #glowiehoov {
-
     }
 
     .mobile {
@@ -70,18 +69,52 @@
         animation-name: fade;
     }
 
-    #description {
+    #descriptionmobile {
         display: flex;
         justify-content: center;
         height: 60px;
         font-size: 15px;
         border: solid 3px #EBDE15;
+        background-color: #d28518a7;
+        color: #EBDE15;
         animation-duration: 5s;
         animation-name: fade;
     }
 
     #description h1 {
         padding: 10px;
+    }
+
+    .descriptionFS .default {
+        display: block;
+    }
+
+    .descriptionFK .default {
+        display: block;
+    }
+
+    .descriptionFY .default {
+        display: block;
+    }
+
+    .descriptionFE .default {
+        display: block;
+    }
+
+    .descriptionLY .default {
+        display: block;
+    }
+
+    .descriptionLA .default {
+        display: block;
+    }
+
+    .descriptionLN .default {
+        display: block;
+    }
+
+    .descriptionLG .default {
+        display: block;
     }
 
     .indie {
