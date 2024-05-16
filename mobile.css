@@ -44,7 +44,7 @@
     #NAV {
         margin-top: 35px;
         padding: 15px;
-        background-color: #D11717;
+        background-color: #D28318;
         border: solid 3px #EBDE15;
         animation-duration: 5s;
         animation-name: fade;
@@ -57,6 +57,38 @@
     .hammer {
         width: auto;
         height: 0.8in;
+    }
+
+    #lanceF1:hover {
+        content: url(assets/Textlar/RedF1S.png)
+    }
+    
+    #lanceF2:hover {
+        content: url(assets/Textlar/RedF2k.png);
+    }
+    
+    #lanceF3:hover {
+        content: url(assets/Textlar/RedF3Y.png);
+    }
+    
+    #lanceF4:hover {
+        content: url(assets/Textlar/RedF4E.png);
+    }
+    
+    #lanceL1:hover {
+        content: url(assets/Textlar/RedL1Y.png)
+    }
+    
+    #lanceL2:hover {
+        content: url(assets/Textlar/RedL2A.png)
+    }
+    
+    #lanceL3:hover {
+        content: url(assets/Textlar/RedL3N.png)
+    }
+    
+    #lanceL4:hover {
+        content: url(assets/Textlar/RedL4G.png)
     }
 
     #portfolio {
